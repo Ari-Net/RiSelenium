@@ -1,0 +1,41 @@
+[2020-12-22 23:00:51,308]   INFO -   jetbrains.buildServer.SERVER - Starting TeamCity agent
+[2020-12-22 23:00:51,310]   INFO - s.buildServer.agent.AgentMain2 - 
+
+
+
+
+
+
+[2020-12-22 23:00:51,310]   INFO - s.buildServer.agent.AgentMain2 - ===========================================================
+[2020-12-22 23:00:51,327]   INFO - s.buildServer.agent.AgentMain2 - TeamCity Build Agent 2020.1.5 (build 78938)
+[2020-12-22 23:00:51,393]   INFO - s.buildServer.agent.AgentMain2 - OS: Windows 10, version 10.0, amd64, Current user: DESKTOP-JFOJRKJ$, Time zone: EET (UTC+02:00)
+[2020-12-22 23:00:51,395]   INFO - s.buildServer.agent.AgentMain2 - Java: 11.0.8, OpenJDK 64-Bit Server VM (11.0.8+10-LTS, mixed mode, sharing), OpenJDK Runtime Environment (11.0.8+10-LTS), Amazon.com Inc.; JVM parameters: -ea -Xmx512m -XX:+HeapDumpOnOutOfMemoryError -Xrs -Dlog4j.configuration=file:../conf/teamcity-agent-log4j.xml -Dteamcity_logs=../logs/
+[2020-12-22 23:00:51,395]   INFO - s.buildServer.agent.AgentMain2 - Agent home is "C:\Users\Arina\Desktop\РИТП\Ari_Selenium\Arisha_Selenium\BuildAgent"
+[2020-12-22 23:00:51,395]   INFO - s.buildServer.agent.AgentMain2 - Starting...
+[2020-12-22 23:00:51,437]   INFO - buildServer.agent.AgentMain2$3 - Refreshing jetbrains.buildServer.agent.AgentMain2$3@1afd44cb: startup date [Tue Dec 22 23:00:51 EET 2020]; root of context hierarchy
+[2020-12-22 23:00:53,810]   INFO -    jetbrains.buildServer.AGENT - Calculating CPU benchmark index...
+[2020-12-22 23:00:53,875]   INFO -    jetbrains.buildServer.AGENT - Agent tools download temp directory created on path C:\Users\Arina\Desktop\РИТП\Ari_Selenium\Arisha_Selenium\BuildAgent\temp\tools
+[2020-12-22 23:00:54,059]   INFO - dAgentConfigurationInitializer - Loading build agent configuration from C:\Users\Arina\Desktop\РИТП\Ari_Selenium\Arisha_Selenium\BuildAgent\conf\buildAgent.properties
+[2020-12-22 23:00:54,173]   INFO - s.buildServer.agent.AgentMain2 - Working dir: C:\Users\Arina\Desktop\РИТП\Ari_Selenium\Arisha_Selenium\BuildAgent\work
+[2020-12-22 23:00:54,173]   INFO - s.buildServer.agent.AgentMain2 - Temp dir: C:\Users\Arina\Desktop\РИТП\Ari_Selenium\Arisha_Selenium\BuildAgent\temp
+[2020-12-22 23:00:54,180]   INFO - rver.plugins.PluginManagerImpl - ===========================================================
+[2020-12-22 23:00:54,180]   INFO - rver.plugins.PluginManagerImpl - Plugins initialization started...
+[2020-12-22 23:00:54,180]   INFO - rver.plugins.PluginManagerImpl - Scanning plugins folders
+[2020-12-22 23:00:54,183]   INFO - .plugins.files.JarSearcherBase - Scanning plugin folder: C:\Users\Arina\Desktop\РИТП\Ari_Selenium\Arisha_Selenium\BuildAgent\plugins
+[2020-12-22 23:00:54,189]   INFO - .plugins.files.JarSearcherBase - Scanning plugin folder: C:\Users\Arina\Desktop\РИТП\Ari_Selenium\Arisha_Selenium\BuildAgent\tools
+[2020-12-22 23:00:54,204]   INFO - rver.plugins.PluginManagerImpl - Found 1 non bundled plugins: [amazonEC2]
+[2020-12-22 23:00:54,204]   INFO - rver.plugins.PluginManagerImpl - Found 0 bundled plugins: []
+[2020-12-22 23:00:54,207]   INFO - rver.plugins.PluginsCollection - Load shared classloader for 1 plugins [amazonEC2]
+[2020-12-22 23:00:54,215]   INFO - rver.plugins.PluginsCollection - No plugins were loaded with standalone classloaders
+[2020-12-22 23:00:54,542]   INFO - rver.plugins.PluginManagerImpl - Plugins initialization completed (1 plugins loaded): [amazonEC2]
+[2020-12-22 23:00:54,544]   INFO - rver.plugins.PluginManagerImpl - ===========================================================
+[2020-12-22 23:00:54,566]   INFO -    jetbrains.buildServer.AGENT - Build Agent version: 78938, plugins signature: NA
+[2020-12-22 23:00:54,660]   INFO - dAgentConfigurationInitializer - Loading build agent configuration from C:\Users\Arina\Desktop\РИТП\Ari_Selenium\Arisha_Selenium\BuildAgent\conf\buildAgent.properties
+[2020-12-22 23:01:01,782]   INFO - n.AmazonInstanceMetadataReader - Amazon is not available. Amazon EC2 integration is not active: Failed to connect to http://169.254.169.254/2016-04-19. The host did not accept the connection within timeout of 7000 ms
+[2020-12-22 23:01:01,786]  ERROR - s.buildServer.agent.AgentMain2 - 
+
+
+
+[2020-12-22 23:01:01,786]  ERROR - s.buildServer.agent.AgentMain2 - Failed to start build agent. Server url was not set. Please check 'serverUrl' key in buildAgent.properties file
+[2020-12-22 23:01:01,790]   INFO - ent.impl.upgrade.AgentExitCode - Agent exited. Failed to start build agent
+[2020-12-22 23:01:01,791]   INFO - buildServer.agent.AgentMain2$3 - Closing jetbrains.buildServer.agent.AgentMain2$3@1afd44cb: startup date [Tue Dec 22 23:00:51 EET 2020]; root of context hierarchy

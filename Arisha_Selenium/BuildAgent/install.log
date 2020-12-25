@@ -1,0 +1,410 @@
+logging set to 1
+CreateDirectory: "C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent" (1)
+File: overwriteflag=0, allowskipfilesflag=2, name="Uninstall.exe"
+File: wrote 627160 to "C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\Uninstall.exe"
+WriteRegStr: "HKEY_LOCAL_MACHINE\SOFTWARE\JetBrains\TeamCity\Agent" "InstallPath"="C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent"
+WriteRegStr: "HKEY_LOCAL_MACHINE\SOFTWARE\JetBrains\TeamCity\Agent" "Version"="unspecified"
+Call: 1355
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\JetBrains TeamCity Agent" "DisplayName"="JetBrains TeamCity Build Agent 2020.1.5"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\JetBrains TeamCity Agent" "UninstallString"=""C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\Uninstall.exe""
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\JetBrains TeamCity Agent" "DisplayIcon"=""C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\Uninstall.exe""
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\JetBrains TeamCity Agent" "Publisher"="JetBrains s.r.o."
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\JetBrains TeamCity Agent" "DisplayVersion"="2020.1.5 (build 78938)"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\JetBrains TeamCity Agent" "URLInfoAbout"="http://www.jetbrains.com/teamcity"
+Jump: 221
+Call: 1355
+Call: 1420
+File: overwriteflag=0, allowskipfilesflag=2, name="C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\ServiceCredential.ini"
+File: wrote 544 to "C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\ServiceCredential.ini"
+WriteINIStr: wrote [Settings] RTL=0 in C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\ServiceCredential.ini
+Call: 0
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 37
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 40
+WriteINIStr: wrote [Field 1] Text=Run TeamCity Agent under the SYSTEM account in C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\ServiceCredential.ini
+Call: 0
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 37
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 40
+WriteINIStr: wrote [Field 2] Text=Run TeamCity Agent under a user account in C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\ServiceCredential.ini
+Call: 0
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 37
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 25
+Jump: 40
+WriteINIStr: wrote [Field 4] Text=Specify a user account to run TeamCity Agent service: in C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\ServiceCredential.ini
+Call: 1420
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\InstallOptions.dll"
+File: skipped: "C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\InstallOptions.dll" (overwriteflag=1)
+Call: 1420
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\InstallOptions.dll"
+File: skipped: "C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\InstallOptions.dll" (overwriteflag=1)
+Call: 1355
+Call: 345
+Jump: 374
+Call: 1365
+detailprint: TeamCity agent service will be run under SYSTEM account
+Jump: 1402
+CreateDirectory: "C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\launcher\bin" (1)
+Call: 1420
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\nsExec.dll"
+File: skipped: "C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\nsExec.dll" (overwriteflag=1)
+Delete: "C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\bin\grant-permissions.bat"
+Delete: DeleteFile("C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\bin\grant-permissions.bat")
+detailprint: Granting DESKTOP-JFOJRKJ\Arina permissions to access C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\ 
+Exec: command="cmd.exe /c " "C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\bin\fix-permissions.bat" "C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\ " "DESKTOP-JFOJRKJ\Arina" ""
+Exec: success ("cmd.exe /c " "C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\bin\fix-permissions.bat" "C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\ " "DESKTOP-JFOJRKJ\Arina" "")
+detailprint: Permissions DESKTOP-JFOJRKJ\Arina to access C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent are granted
+Delete: "C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\bin\fix-permissions.bat"
+Delete: DeleteFile("C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\bin\fix-permissions.bat")
+Delete: "C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\bin\grant-permissions.bat"
+Jump: 344
+WriteINIStr: wrote [Field 1] Flags= in C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\agentService.ini
+Call: 1420
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\InstallOptions.dll"
+File: skipped: "C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\InstallOptions.dll" (overwriteflag=1)
+CreateDirectory: "C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent\bin" (1)
+Call: 1420
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\nsExec.dll"
+File: skipped: "C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\nsExec.dll" (overwriteflag=1)
+Call: 52
+Call: 524
+Jump: 538
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+WriteINIStr: wrote [Settings] NextButtonText=&Finish in C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\ioSpecial.ini
+WriteINIStr: wrote [Field 2] Bottom=38 in C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\ioSpecial.ini
+WriteINIStr: wrote [Field 3] Top=45 in C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\ioSpecial.ini
+Call: 524
+Jump: 538
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+WriteINIStr: wrote [Field 2] Text=Completing the JetBrains TeamCity Build Agent 2020.1.5 Setup Wizard in C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\ioSpecial.ini
+WriteINIStr: wrote [Field 3] Bottom=185 in C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\ioSpecial.ini
+Call: 524
+Jump: 538
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 551
+Jump: 537
+Jump: 551
+Jump: 537
+Jump: 551
+Jump: 537
+Jump: 551
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+Jump: 537
+WriteINIStr: wrote [Field 3] Text=JetBrains TeamCity Build Agent 2020.1.5 has been installed on your computer.\r\n\r\nClick Finish to close this wizard. in C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\ioSpecial.ini
+Call: 1420
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\InstallOptions.dll"
+File: skipped: "C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\InstallOptions.dll" (overwriteflag=1)
+Call: 1420
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\InstallOptions.dll"
+File: skipped: "C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\InstallOptions.dll" (overwriteflag=1)
+Delete: DeleteFile("C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\agentService.ini")
+Delete: DeleteFile("C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\agentUpgrade.ini")
+Delete: DeleteFile("C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\InstallOptions.dll")
+Delete: DeleteFile("C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\ioSpecial.ini")
+Delete: DeleteFile("C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\modern-header.bmp")
+Delete: DeleteFile("C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\modern-wizard.bmp")
+Delete: DeleteFile("C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\nsExec.dll")
+Delete: DeleteFile("C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\ServiceCredential.ini")
+Delete: DeleteFile("C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\System.dll")
+Delete: DeleteFile("C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\UserInfo.dll")
+RMDir: RemoveDirectory("C:\Users\Arina\AppData\Local\Temp\nso545B.tmp\")

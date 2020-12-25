@@ -1,0 +1,54 @@
+ERROR  | wrapper  | 2020/12/22 23:00:29 | The TCBuildAgent service is not installed - The specified service does not exist as an installed service. (0x424)
+ERROR  | wrapper  | 2020/12/22 23:00:29 | The TCBuildAgent service is not installed - The specified service does not exist as an installed service. (0x424)
+STATUS | wrapper  | 2020/12/22 23:00:39 | TeamCity Build Agent installed.
+STATUS | wrapper  | 2020/12/22 23:00:43 | Starting the TeamCity Build Agent service...
+STATUS | wrapper  | 2020/12/22 23:00:43 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/12/22 23:00:44 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/22 23:00:44 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/22 23:00:44 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/22 23:00:44 | 
+INFO   | jvm 1    | 2020/12/22 23:00:45 | Starting TeamCity Build Agent Launcher...
+INFO   | jvm 1    | 2020/12/22 23:00:45 | Agent home directory is C:\Users\Arina\Desktop\–»“œ\Ari_Selenium\Arisha_Selenium\BuildAgent
+INFO   | jvm 1    | 2020/12/22 23:00:45 | log4j:ERROR Could not parse url [jar:file:/C:/Users/Arina/Desktop/–»“œ/Ari_Selenium/Arisha_Selenium/BuildAgent/launcher/lib/launcher.jar!/teamcity-launcher-log4j.xml].
+INFO   | jvm 1    | 2020/12/22 23:00:45 | com.sun.org.apache.xerces.internal.util.URI$MalformedURIException: Opaque part contains invalid character: –
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.util.URI.initializePath(URI.java:1143)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.util.URI.initialize(URI.java:583)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.util.URI.<init>(URI.java:336)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.util.URI.<init>(URI.java:299)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemIdStrictOff1(XMLEntityManager.java:2395)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId(XMLEntityManager.java:2241)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.resolveEntityAsPerStax(XMLEntityManager.java:996)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.dispatch(XMLDocumentScannerImpl.java:1142)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.next(XMLDocumentScannerImpl.java:1040)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:943)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:178)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at org.apache.log4j.xml.DOMConfigurator$2.parse(DOMConfigurator.java:612)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at org.apache.log4j.xml.DOMConfigurator.doConfigure(DOMConfigurator.java:711)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at org.apache.log4j.xml.DOMConfigurator.doConfigure(DOMConfigurator.java:618)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at org.apache.log4j.xml.DOMConfigurator.configure(DOMConfigurator.java:743)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at jetbrains.buildServer.agent.LogInitializer.setupLog4JConfigurationFile(LogInitializer.java:53)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at jetbrains.buildServer.agent.LogInitializer.init(LogInitializer.java:30)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at jetbrains.buildServer.agent.EntryPoint.run(EntryPoint.java:29)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at jetbrains.buildServer.agent.StandAloneLauncher2.main2(StandAloneLauncher2.java:16)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at jetbrains.buildServer.agent.ClazzLoader.call(ClazzLoader.java:59)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at jetbrains.buildServer.agent.ClazzLoader.callMain2(ClazzLoader.java:19)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at jetbrains.buildServer.agent.StandAloneLauncher.main(StandAloneLauncher.java:12)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO   | jvm 1    | 2020/12/22 23:00:45 | log4j:WARN No appenders could be found for logger (jetbrains.buildServer.agent.JavaChooser).
+INFO   | jvm 1    | 2020/12/22 23:00:45 | log4j:WARN Please initialize the log4j system properly.
